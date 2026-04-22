@@ -11,7 +11,7 @@ public static class TestRenderConnection
 {
     // Cadena de conexión de Render (producción)
     private const string RenderConnectionString = 
-        "Host=dpg-d3jfdcb3fgac73cblbag-a.oregon-postgres.render.com;Database=schoolmanagement_xqks;Username=admin;Password=2c2GygJl2ArUP5fKuFDsRtWFYC4NJdtk;Port=5432;SSL Mode=Require;Trust Server Certificate=true";
+        "Host=dpg-d7kb2f67r5hc73fvoqqg-a.oregon-postgres.render.com;Database=schoolmanager_zznq;Username=admin;Password=9kJiHloUhuY11Dz1lK14p9uRgnJNyUj2;Port=5432;SSL Mode=Require;Trust Server Certificate=true";
 
     /// <summary>
     /// Verifica la conexión a la base de datos de Render
@@ -21,8 +21,8 @@ public static class TestRenderConnection
         try
         {
             Console.WriteLine("🔍 Verificando conexión a Render...");
-            Console.WriteLine($"📡 Host: dpg-d3jfdcb3fgac73cblbag-a.oregon-postgres.render.com");
-            Console.WriteLine($"🗄️  Database: schoolmanagement_xqks");
+            Console.WriteLine($"📡 Host: dpg-d7kb2f67r5hc73fvoqqg-a.oregon-postgres.render.com");
+            Console.WriteLine($"🗄️  Database: schoolmanager_zznq");
             
             using var connection = new NpgsqlConnection(RenderConnectionString);
             await connection.OpenAsync();

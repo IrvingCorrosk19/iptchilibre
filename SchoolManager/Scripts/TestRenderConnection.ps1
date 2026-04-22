@@ -3,11 +3,11 @@
 $psqlPath = "C:\Program Files\PostgreSQL\18\bin\psql.exe"
 
 # Datos de conexión a Render
-$host = "dpg-d3jfdcb3fgac73cblbag-a.oregon-postgres.render.com"
+$host = "dpg-d7kb2f67r5hc73fvoqqg-a.oregon-postgres.render.com"
 $port = "5432"
-$database = "schoolmanagement_xqks"
+$database = "schoolmanager_zznq"
 $username = "admin"
-$password = "2c2GygJl2ArUP5fKuFDsRtWFYC4NJdtk"
+$password = "9kJiHloUhuY11Dz1lK14p9uRgnJNyUj2"
 
 # Variable de entorno para la contraseña (psql la puede leer desde PGPASSWORD)
 $env:PGPASSWORD = $password
